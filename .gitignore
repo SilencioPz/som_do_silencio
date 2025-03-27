@@ -1,0 +1,35 @@
+### IntelliJ ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Maven ###
+target/
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+### Arquivos temporários ###
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+### Sistemas operacionais ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### Arquivos do JLayer/VLCJ ###
+# NÃO ignore os JARs de libs no seu repositório Maven local
+!.m2/repository/javazoom/jlayer/
+
+# Mas ignore os downloads temporários do Maven
+.m2/repository/**/*.jar
+!.m2/repository/javazoom/jlayer/**/*.jar
